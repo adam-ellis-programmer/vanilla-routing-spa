@@ -1,0 +1,5 @@
+export { AboutPage } from './pages/about.js'
+export { HomePage } from './pages/home.js'
+export { ContactPage } from './pages/contact.js'
+export { Footer } from '../src/components/footer.js'
+export { Nav } from '../src/components/nav.js'

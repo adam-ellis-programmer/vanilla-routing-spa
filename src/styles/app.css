@@ -1,0 +1,20 @@
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  height: calc(100vh - 150px);
+  /* border: 1px solid; */
+}
+
+.footer {
+  margin-top: auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* Your existing styles */
+.page-container {
+  padding: 20px;
+}
