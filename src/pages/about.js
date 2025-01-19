@@ -1,5 +1,6 @@
 export function AboutPage() {
   const page = document.createElement('div')
+  // page -> display none
   page.classList.add('page', 'active')
   page.innerHTML = `
         <div  class='page-container' >

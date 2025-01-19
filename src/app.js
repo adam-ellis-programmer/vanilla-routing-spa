@@ -13,6 +13,15 @@ import { AboutPage, ContactPage, HomePage, Footer, Nav } from './index.js'
     document.head.appendChild(link)
   })
 })()
+//
+// load favicon
+;(function loadFavicon() {
+  const link = document.createElement('link')
+  link.rel = 'icon'
+  link.type = 'image/svg+xml'
+  link.href = './public/favicon.ico'
+  document.head.appendChild(link)
+})()
 
 // lookup routes
 const routes = {
@@ -77,6 +86,7 @@ const initializeApp = () => {
       e.preventDefault()
       const route = link.getAttribute('data-route')
       console.log('route:', route)
+      // changes # as we click through the pages
       window.location.hash = route
     })
   })
